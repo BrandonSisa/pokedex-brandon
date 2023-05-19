@@ -1,0 +1,167 @@
+.pokemon {
+  display: flex;
+}
+
+.pokemon__contenedor-card {
+  width: auto;
+display: flex;
+
+}
+
+.pokemon__img {
+  
+  margin-left: auto;
+  margin-right: auto;
+    }
+
+
+.pokemon__img:hover {
+  width: 550px;
+  height: 600px;
+}
+
+.pokemonCard__header1 {
+  height: 200px;
+}
+
+.pokemon__encabezado {
+  margin-top: 0; 
+  overflow: auto;
+  margin: auto;
+  /* border-radius: 9%;            */
+  transform: all 4s ease-in-out;
+
+  /* -webkit-transition: height 1s ease-in-out 0s; */
+}
+
+.pokemon__body {
+  overflow: auto;
+}
+
+.pokemon__contenedor {
+  
+  color: #f7f7f7;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80vw;
+  margin: auto;
+}
+.idYnombre{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80vw;
+  margin: auto;
+  padding: 10px;
+}
+.idInfo{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 80vw;
+  margin: auto;
+  margin-top: 15px;
+}
+
+.id {
+  grid-area: id;
+}
+
+.name {
+  grid-area: name;
+}
+
+.Wight {
+  grid-area: Wight;
+}
+
+.Height {
+  grid-area: Height;
+  justify-self: center;
+}
+
+.type {
+  grid-area: type;
+}
+
+.type1 {
+  grid-area: type1;
+}
+
+.Habi {
+  grid-area: Habi;
+  justify-self: center;
+}
+
+.Habi1 {
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+align-items: center;
+width: 80vw;
+margin: auto;
+margin-top: 15px;
+
+}
+
+.letra{
+  font-size: x-large;
+}
+/* .pokemon__encabezado:hover {
+  height: 1300px;
+  width: 1000px;
+  border-radius: 9%; */
+
+.name-pokemom {
+  font-family: 'Mynerve', cursive;
+  font-size: 50px;
+
+}
+
+
+.pokemon__stats {
+  width: auto;
+  height: auto;
+
+}
+
+.pokemon__stat-name {
+  text-align: left;
+}
+
+.pokemon__stat-value {
+  text-align: right;
+}
+
+.pokemon_body-tamaño {
+  display: grid;
+  height: 30px;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: center;
+}
+
+.pokemon__stat-barGray {
+  background-color: #f7f7f7;
+  height: 25px;
+}
+.pokemon_stats_tabla{
+  
+}
+.pokemon__stat-barProgress {
+  background: linear-gradient(90deg, #fcd676 -2.25%, #e6901e 133.18%);
+  height: 25px;
+  width: 50%;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+@media (max-width: 600px) {
+  .pokemon__encabezado {
+    width: auto;
+    height: auto;
+    overflow: visible;
+  }}
